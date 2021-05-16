@@ -4,30 +4,39 @@
 <head>
 	<title> My Website </title>
 	<meta charset="UTF-8">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&family=Staatliches&display=swap" rel="stylesheet">
 <head>
 
 <body>
-	<img width="300" src="https://blog.lingoda.com/wp-content/uploads/2020/10/How-To-Say-Hello-in-10-Languages.jpg">
-
+	<h1>Hello</h1>
+	
 	<h1> I'm Oceana!</h1>
 	
 	<h1> These are my games!!</h1>
 	
 	<h1> Here are the instructions: </h1>
 	
-	<p> Press the arrow keys to move the bunny around. </p>
-	<p> Go under the fruit salad to catch it and then eat it. </p>
-	<p> Once you hit 10 puffer-fish the game would stop and then you'll need to restart. If you hit the red circle the game would stop immediately  </p>
+	<h1> Press the arrow keys to move the bunny around. </h1>
+	<h1> Go under the fruit salad to catch it and then eat it. </h1>
+	<h1 class="warning"> Warning: Once you hit 10 puffer-fish the game would stop and then you'll need to restart.</h1>
+	<h1 class="warning"> If you hit the red circle the game would stop immediately  </h1>
 	
-	<iframe 
+
+	<div>
+
+<iframe 
 	src="https://scratch.mit.edu/projects/513859253/embed" allowtransparency="true" 
 	width="600" 
 	height="500" >
 	</iframe>
+
+	</div>
 	
-	<p> Press the green flag to start </p>
-	<p> Press the space bar to jump over the bear </p>
-	<h3> WARNING: The bear would get bigger every few seconds </h3>
+	
+	<h1> Press the green flag to start </h1>
+	<h1> Press the space bar to jump over the bear </h1>
+	<h1 class="warning"> WARNING: The bear would get bigger every few seconds </h1>
  
 	<iframe 
 	src="https://scratch.mit.edu/projects/504801970/embed" 
@@ -36,6 +45,27 @@
 	height="500">
 	</iframe>
 
-</body>	
+
+</body>
+
+<style>
+	*{
+		font-family: 'Lobster Two', cursive;
+		color: white;
+	}
+
+
+	body{
+		background-image: url("https://images.unsplash.com/photo-1464802686167-b939a6910659?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1033&q=80");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.warning{
+		color: red;
+		font-family: 'Staatliches', cursive;
+	}
+
+</style>	
 
 </html>
